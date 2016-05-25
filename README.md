@@ -4,18 +4,10 @@
 
 [![Build Status](https://travis-ci.com/csc340-03-spring-2016/yedell-HW7.svg?token=69t7ThEH9PYiydpeYrPA&branch=master)](https://travis-ci.com/csc340-03-spring-2016/yedell-HW7)
 
-##Problem statement:
-Overload the operators +,-,* in the class Matrix. Look into the file `Matrix.h` for more details.
-
- 
-## Files to work on
-* `Matrix.h` Overload the necessary Operators
-* You can also modify `main.cpp` to debug your program.
-* `README.md` to add your name and badge
-Please **DO NOT MODIFY** any other files. Modifying any other file will result in penalty to your grade.
+Overloaded operators +,-,* in the class Matrix. Look into the file `Matrix.h` for more details.
       
 ## Exceptions to be thrown
-Throw the default exception wherever necessary (Incorrect sizes, etc)
+Throws the default exception wherever necessary (Incorrect sizes, etc)
 
 ## Matrix Multiplication Order
 ```
@@ -40,28 +32,6 @@ Mat3 :{{31, 15,  -18, 34},
 
 ```
 ## Constraints 
-* The class should support the following types via templates:
+* The class supports the following types via templates:
     * int
     * float
-
-
-## Running tests
-* To run the program, select the configuration `hw7_run` from the top right and click on run
-* You can run the tests using Clion: select the configuration `runAllHW7Tests` from the top right and click on run
-* To use Clion's Google test configuration:
-    * Goto Run->Edit Configurations..
-    * Select the "+" icon on the top left to add a new configuration of type "Google Test"
-    * Enter in a name, and also target configuration as "runMainHW7Tests"
-    * Select Ok.
-    * You can now use this configuration for better test display by CLion.
-
-## Notes
-* Make sure your solution compiles and runs. **There are no points for code that doesn't compile**.
-* The Initial code will **not** compile. You will have to implement the necessary functions.
-* Look at samples in the class repository for example code.
-* It is recommended that you add your name and travis ci badge to your readme.
-* Make sure your last push is before the deadline. Your last push will be considered as your final submission.
-* If you need to be considered for partial grade for any reason(failing tests on travis,etc). Then email the staff before the deadline. Late email requests may not be considered.
-* Post questions on Piazza if you have any questions.
-* Please contact the course staff if you run into issues. We are here to help you!
-* look at this video for how to run CLion tests: https://youtu.be/8Up5eNZ0FLw
