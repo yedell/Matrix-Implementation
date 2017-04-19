@@ -1,6 +1,6 @@
-#C++ Matrix Implementation
+# C++ Matrix Implementation
 
-#Yona Edell
+# Yona Edell
 
 [![Build Status](https://travis-ci.com/csc340-03-spring-2016/yedell-HW7.svg?token=69t7ThEH9PYiydpeYrPA&branch=master)](https://travis-ci.com/csc340-03-spring-2016/yedell-HW7)
 
